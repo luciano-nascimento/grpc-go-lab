@@ -1,7 +1,7 @@
 # grpc-go-lab
 grpc study purpose
 
-# steps to create that projects
+# steps to create this project
 - don't forget about env vars:
     - export GOPATH=/home/<user folder>/go   
     - export GOBIN=$GOPATH/bin   

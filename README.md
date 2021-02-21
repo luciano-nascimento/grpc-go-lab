@@ -2,11 +2,16 @@
 The goal is create a client/server grpc communication with study purpose
 
 # How to run ?
-Just run server before then client using go run cmd/server/server.go or go run cmd/client/client.go
-
-# Commands/configs used during this project developing
+Just run server before then client using:   
+`
+go run cmd/server/server.go 
+`    
+`
+go run cmd/client/client.go
+`
+# Commands/Configs 
 - don't forget about env vars:
-    - export GOPATH=/home/<user folder>/go   
+    - export GOPATH=/home/user_folder/go   
     - export GOBIN=$GOPATH/bin   
     - export PATH=$PATH:/$GOROOT:$GOPATH:$GOBIN   
     - export GOROOT=/usr/local/go   

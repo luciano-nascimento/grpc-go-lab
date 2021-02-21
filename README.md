@@ -1,7 +1,10 @@
-# grpc-go-lab
-grpc study purpose
+# Objective
+The goal is create a client/server grpc communication with study purpose
 
-# steps to create this project
+# How to run ?
+Just run server before then client using go run cmd/server/server.go or go run cmd/client/client.go
+
+# Commands/configs used during this project developing
 - don't forget about env vars:
     - export GOPATH=/home/<user folder>/go   
     - export GOBIN=$GOPATH/bin   
